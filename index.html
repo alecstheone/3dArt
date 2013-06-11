@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>3D Art</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="gallery of 3d images and movies">
+    <meta name="author" content="Stanese Alexandru">
+
+    <!-- Le styles -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+    <style>
+      body {
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+      }
+    </style>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script type="text/javascript">
+		$('.carousel').carousel({
+		interval: 2000
+		});
+	</script>
+  </head>
+  <body>
+  <!-- NAVBAR -->
+<div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+			<!--	<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				</button>-->
+			
+			<div class="nav-collapse collapse">
+				<ul class="nav">
+					<li><a href="index.html"><img src="img/logo.png" width="35px" height="23px"></img></a></li>
+					<li class="active"><a href="index.html">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li class="dropdown">
+					<a class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" data-delay="1000" href="#">
+					Products <b class="caret"></b>
+					</a>			
+					<ul class="dropdown-menu" data-hover="dropdown">
+						<li><a href="#">Prod 1</a></li>
+						<li><a href="#">Prod 2</a></li>
+						<li><a href="#">Prod 3</a></li>
+						<li><a href="#">Prod 4</a></li>
+					</ul>
+								
+			</li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+	
+
+	
+<!-- CAROUSELL -->
+
+    <div class="container">
+
+		<h1>Bootstrap starter template</h1>
+		<p>Use this document as a way to quick start any new project.<br> All you get is this message and a barebones HTML document.</p>
+
+		<div class="row">
+			<div class="span12"> 
+					<div id="myCarousel" class="carousel slide">
+						<ol class="carousel-indicators">
+							<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+							<li data-target="#myCarousel" data-slide-to="1"></li>
+							<li data-target="#myCarousel" data-slide-to="2"></li>
+							<li data-target="#myCarousel" data-slide-to="3"></li>
+						</ol>
+						
+						<!-- Carousel items -->
+						<div class="carousel-inner">
+							<div class="active item"><img src="img/1.jpg"></img></div>
+							<div class="item"><img src="img/2.jpg"></img></div>
+							<div class="item"><img src="img/3.jpg"></img></div>
+							<div class="item"><img src="img/4.jpg"></img></div>
+    					</div>
+    					<!-- Carousel nav -->
+						<a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+    					<a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+    				</div>
+			</div>
+		</div>
+	  
+	</div> <!-- /container -->
+
+  </body>
+</html>
